@@ -1,4 +1,3 @@
-# Authors: MS 5/10/21
 
 import turtle
 
@@ -11,14 +10,9 @@ turtle.penup()
 turtle.goto(-125, 300)
 turtle.pendown()
 
-for x in range(4):
-    turtle.forward(250)
-    turtle.right(90)
-
-
-
+#def answer():
+    #if turtle.onscreenclick(answer, btn=1, add=true):
 
 
 
 window.mainloop()
-

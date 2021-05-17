@@ -3,11 +3,21 @@
 import turtle
 
 window = turtle.Screen()
-square = turtle.Turtle()
+rocket = turtle.Turtle()
 
-square_gif = open("Square.gif")
-turtle.register_shape("Square.gif")
-square.shape("Square.gif")
+rocket_gif = open("Rocket-5.gif")
+turtle.register_shape("Rocket-5.gif")
+rocket.shape("Rocket-5.gif")
+
+window.mainloop()
+
+
+window = turtle.Screen()
+car = turtle.Turtle()
+
+car_gif = open("car.gif")
+turtle.register_shape("car.gif")
+car.shape("car.gif")
 
 window.mainloop()
 

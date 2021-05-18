@@ -1,17 +1,19 @@
-
 import turtle
 
+t = turtle.Turtle()
 window = turtle.Screen()
-turtle = turtle.Turtle()
-
+window.title("onclick test")
 window.setup(700, 700)
-window.title("Matching Game")
-turtle.penup()
-turtle.goto(-125, 300)
-turtle.pendown()
+
+
+t.color("blue")
+t.pensize (40)
+t.shape("circle")
+
+window.onclick(t.goto)
 
 #def answer():
-    #if turtle.onscreenclick(answer, btn=1, add=true):
+    #if turtle.onwindowclick(answer, btn=1, add=true):
 
 
 

@@ -2,7 +2,13 @@
 
 import turtle
 
-window = turtle.Screen()
+level=int(input("would you like to play level 1, 2, 3, or quit?"))
+
+if level == 1:
+    
+
+
+#window = turtle.Screen()
 #rocket = turtle.Turtle()
 
 #rocket_gif = open("Rocket-5.gif")
@@ -19,5 +25,5 @@ window = turtle.Screen()
 
 
 
-turtle.write("GeeksForGeeks")
-window.mainloop()
+#turtle.write("GeeksForGeeks")
+#window.mainloop()
